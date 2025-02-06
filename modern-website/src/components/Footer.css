@@ -1,0 +1,17 @@
+/* Footer.css */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive Design for Footer */
+@media (max-width: 768px) {
+  .footer {
+    position: static; /* Remove fixed positioning on small screens */
+  }
+}

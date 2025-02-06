@@ -1,0 +1,26 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.page {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive Design for Page Layout */
+@media (max-width: 768px) {
+  .page {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px; /* Smaller heading on small screens */
+  }
+
+  p {
+    font-size: 14px; /* Smaller text on small screens */
+  }
+}
